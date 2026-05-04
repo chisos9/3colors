@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paintings — 3colors</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #2a2a2a;
+      color: #e6e6e6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3rem;
+    }
+    .top a.back {
+      color: #999;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .top a.back:hover { color: #fff; }
+    .top .brand {
+      color: #999;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+    }
+    h2.year {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin: 2.5rem 0 1.5rem;
+      letter-spacing: -0.01em;
+      color: #f5f5f5;
+    }
+    .work {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: center;
+      padding: 1.5rem 0;
+      border-top: 1px solid #3a3a3a;
+    }
+    .work:last-child { border-bottom: 1px solid #3a3a3a; }
+    .meta .title {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #f5f5f5;
+      margin-bottom: 0.25rem;
+    }
+    .meta .category {
+      font-size: 0.95rem;
+      color: #b8b8b8;
+      margin-bottom: 0.25rem;
+    }
+    .meta .size {
+      font-size: 0.95rem;
+      color: #999;
+    }
+    .work a.thumb {
+      display: block;
+      line-height: 0;
+    }
+    .work a.thumb img {
+      max-width: 320px;
+      max-height: 240px;
+      width: auto;
+      height: auto;
+      display: block;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .work a.thumb:hover img {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.55);
+    }
+    @media (max-width: 640px) {
+      .page { padding: 2rem 1.25rem 3rem; }
+      .work {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .work a.thumb img {
+        max-width: 100%;
+        max-height: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="top">
+      <span class="brand">3colors</span>
+      <a class="back" href="/">← back</a>
+    </div>
+    <h2 class="year">2026</h2>
+    <div class="work">
+      <div class="meta">
+        <div class="title">Cramer Slabs</div>
+        <div class="category">acrylic on canvas</div>
+        <div class="size">120x90 cm</div>
+      </div>
+      <a class="thumb" href="Paintings/2026/Cramer_Slabs_acrylic_on_canvas_120x90.png">
+        <img src="Paintings/2026/thumbs/Cramer_Slabs_acrylic_on_canvas_120x90.jpg" alt="Cramer Slabs">
+      </a>
+    </div>
+    <div class="work">
+      <div class="meta">
+        <div class="title">Küche</div>
+        <div class="category">acrylic on canvas</div>
+        <div class="size">18x24 cm</div>
+      </div>
+      <a class="thumb" href="Paintings/2026/Ku%CC%88che_acrylic_on_canvas_18x24.png">
+        <img src="Paintings/2026/thumbs/Ku%CC%88che_acrylic_on_canvas_18x24.jpg" alt="Küche">
+      </a>
+    </div>
+    <div class="work">
+      <div class="meta">
+        <div class="title">Otto traut sich nachts nicht ins Teufelsmoor</div>
+        <div class="category">acrylic on paper</div>
+        <div class="size">40x30 cm</div>
+      </div>
+      <a class="thumb" href="Paintings/2026/Otto_traut_sich_nachts_nicht_ins_Teufelsmoor_acrylic_on_paper_40x30.png">
+        <img src="Paintings/2026/thumbs/Otto_traut_sich_nachts_nicht_ins_Teufelsmoor_acrylic_on_paper_40x30.jpg" alt="Otto traut sich nachts nicht ins Teufelsmoor">
+      </a>
+    </div>
+    <h2 class="year">2025</h2>
+    <div class="work">
+      <div class="meta">
+        <div class="title">Augusto di Prima Porta</div>
+        <div class="category">acrylic on paper</div>
+        <div class="size">2 times 24x32 cm</div>
+      </div>
+      <a class="thumb" href="Paintings/2025/Augusto_di_Prima_Porta_acrylic_on_paper_2_times_24x32.png">
+        <img src="Paintings/2025/thumbs/Augusto_di_Prima_Porta_acrylic_on_paper_2_times_24x32.jpg" alt="Augusto di Prima Porta">
+      </a>
+    </div>
+    <div class="work">
+      <div class="meta">
+        <div class="title">Fall</div>
+        <div class="category">acrylic on paper</div>
+        <div class="size">24x32 cm</div>
+      </div>
+      <a class="thumb" href="Paintings/2025/Fall_acrylic_on_paper_24x32.png">
+        <img src="Paintings/2025/thumbs/Fall_acrylic_on_paper_24x32.jpg" alt="Fall">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

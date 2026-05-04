@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Source files for the home-page painting (already embedded in index.html)
+IMG_4064.HEIC
+IMG_4064.jpg
+IMG_4064.png
+
+# Backup of the original HTML before edits
+painting_pressable_disks.html
+
+# Camera originals and editor sources for paintings (not needed on the website)
+*.HEIC
+*.heic
+*.xcf
